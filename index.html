@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OutThink Risk Warrant PRD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@400;600;800&display=swap');
+      
+      :root {
+        --retro-bg: #f2f0e9;
+        --retro-card: #ffffff;
+        --retro-border: #1a1a1a;
+        --retro-text: #1a1a1a;
+        --retro-accent: #ff4d4d; /* Muted Red */
+        --retro-highlight: #ffdd57; /* Muted Yellow */
+      }
+
+      body {
+        font-family: 'Space Mono', monospace;
+        background-color: var(--retro-bg);
+        color: var(--retro-text);
+        background-image: radial-gradient(#d1d1d1 1px, transparent 1px);
+        background-size: 20px 20px;
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--retro-bg);
+        border-left: 2px solid var(--retro-border);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--retro-border);
+        border: 2px solid var(--retro-bg);
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #404040;
+      }
+      
+      .retro-shadow {
+        box-shadow: 4px 4px 0px 0px var(--retro-border);
+      }
+      
+      .retro-shadow-sm {
+        box-shadow: 2px 2px 0px 0px var(--retro-border);
+      }
+
+      .retro-shadow-hover:hover {
+        transform: translate(-2px, -2px);
+        box-shadow: 6px 6px 0px 0px var(--retro-border);
+      }
+
+      .retro-text-shadow {
+        text-shadow: 1px 1px 0px #fff;
+      }
+      
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 20px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
