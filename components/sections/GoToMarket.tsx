@@ -50,7 +50,7 @@ const GoToMarket: React.FC = () => {
               </div>
                <ul className="text-xs font-mono space-y-2 list-disc pl-4">
                   <li>Demo Environment (pre-filled data)</li>
-                  <li>ROI Calculator (Input: Employees -> Output: Savings)</li>
+                  <li>ROI Calculator (Input: Employees → Output: Savings)</li>
                   <li>Competitive Battlecards</li>
                   <li>Implementation Playbook</li>
               </ul>

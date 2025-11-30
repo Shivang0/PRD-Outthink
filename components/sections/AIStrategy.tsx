@@ -48,7 +48,7 @@ const AIStrategy: React.FC = () => {
                    <BookOpen size={20} className="text-black" />
                    <span className="text-xs font-bold uppercase">Personalized</span>
               </div>
-              <p className="text-xs font-mono text-gray-600">Maps specific risk factors to modules. E.g., Phishing failure -> "Spot the Phish" interactive module.</p>
+              <p className="text-xs font-mono text-gray-600">Maps specific risk factors to modules. E.g., Phishing failure → "Spot the Phish" interactive module.</p>
            </Card>
 
            <Card title="Appeal Triage">
@@ -56,7 +56,7 @@ const AIStrategy: React.FC = () => {
                    <Scale size={20} className="text-black" />
                    <span className="text-xs font-bold uppercase">Routing</span>
               </div>
-              <p className="text-xs font-mono text-gray-600">Prioritizes appeals by validity likelihood. High confidence -> Fast-track to manager.</p>
+              <p className="text-xs font-mono text-gray-600">Prioritizes appeals by validity likelihood. High confidence → Fast-track to manager.</p>
            </Card>
       </div>
 
